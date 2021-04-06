@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="styles/app.min.css">
+    <title>Creative Design Agency</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- header__top -->
+            <div class="header__top">
+                <a href="#" class="logo">
+                    <img class="logo__image" src="image/logo.png" alt="logo">
+                </a>
+                <nav id="main-menu" class="navi header__nav">
+                    <a class="navi__link" href="#">Home</a>
+                    <a class="navi__link" href="#">About us</a>
+                    <a class="navi__link" href="#">Our Services</a>
+                    <a class="navi__link" href="#">Support</a>
+                </nav>
+                <a href="#" class="btn btn--sm header__btn">Contact</a>
+
+                <button type="button" class="toggle-menu header__toggle-menu js-toggle-menu" data-menu="#main-menu">
+                    <span></span>
+                </button>
+            </div>
+            <!-- header__top -->
+            <!-- header-main -->
+            <div class="header__main">
+                <div class="header__main-left section-main">
+                    <h1 class="section-main__subtitle">Creative <br>Design Agency</h1>
+                    <p class="section-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        Etiam vel dolor id nulla gravida blandit.</p>
+                    <a href="#" class="btn btn--secondary">Learn more</a>
+                </div>
+                <div class="header__main-right">
+                    <img class="header__main-image" src="image/bg.png" alt="">
+                </div>
+            </div>
+            <!-- header-main -->
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- about-us -->
+    <section class="sect-about-us">
+        <div class="sect-about-us__inner">
+            <div class="container row sect-about-us__decor">
+                <div class="col col-md-none">
+                    <div class="sect-about-us__image">
+                        <img src="/image/about-us.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="section-main">
+                        <h2 class="section-main__title">About us</h2>
+                        <h3 class="section-main__subtitle">
+                            Digital Agency <br>
+                            Providing various <br>
+                            Services</h3>
+                        <p class="section-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+                            sed do eiusmod tempor incididunt ut labore et dolore<br>
+                            magna aliqua. Ut enim ad minim veniam,.</p>
+                        <a href="#" class="btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us -->
+    <!-- our-services -->
+    <section class="sect-our-services">
+        <div class="container row">
+            <div class="col">
+                <div class="section-main">
+                    <h2 class="section-main__title">Our services</h2>
+                    <h3 class="section-main__subtitle">We can take your <br>business to the<br> next level</h3>
+                    <p class="section-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                        sed do eiusmod tempor incididunt ut labore et dolore <br>
+                        magna aliqua. Ut enim ad minim veniam,.</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </div>
+            <div class="col col-md-none">
+                <div class="sect-our-services__image">
+                    <img src="/image/our-services.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-services -->
+
+    <section class="sect-people-say">
+        <svg class="sect-people-say__decor-round" 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="315px" height="315px">
+            <path fill-rule="evenodd"  stroke="rgb(255, 199, 39)" stroke-width="70px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+            d="M140.000,70.000 C178.660,70.000 210.000,101.340 210.000,140.000 C210.000,178.660 178.660,210.000 140.000,210.000 C101.340,210.000 70.000,178.660 70.000,140.000 C70.000,101.340 101.340,70.000 140.000,70.000 Z"/>
+        </svg>
+        <div class="container">
+
+            <img class="sect-people-say__decor" src="image/p1.png" alt="">
+            <img class="sect-people-say__decor" src="image/p2.png" alt="">
+            <img class="sect-people-say__decor" src="image/p3.png" alt="">
+            <img class="sect-people-say__decor" src="image/p4.png" alt="">
+            <img class="sect-people-say__decor" src="image/p5.png" alt="">
+            <img class="sect-people-say__decor" src="image/p6.png" alt="">
+
+            <div class="section-main sect-people-say__section-main">
+                <h2 class="section-main__title">TeStimonials</h2>
+                <h3 class="section-main__subtitle">What people say</h3>
+            </div>
+
+            <div class="cards">
+                <div class="splide">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M506.134 241.843l-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"/>
+                            </svg>                              
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M506.134 241.843l-.018-.019-104.504-104c-7.829-7.791-20.492-7.762-28.285.068-7.792 7.829-7.762 20.492.067 28.284L443.558 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h423.557l-70.162 69.824c-7.829 7.792-7.859 20.455-.067 28.284 7.793 7.831 20.457 7.858 28.285.068l104.504-104 .018-.019c7.833-7.818 7.808-20.522-.001-28.314z"/>
+                            </svg>                              
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="splide__slide">
+                                <div class="card-item">
+                                    <div class="card-item__text">1 This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. </div>
+                                    <div class="card-item__name">Zoltan Nemeth</div>
+                                    <div class="card-item__stars">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="card-item">
+                                    <div class="card-item__text">2 This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. </div>
+                                    <div class="card-item__name">Zoltan Nemeth</div>
+                                    <div class="card-item__stars">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="card-item">
+                                    <div class="card-item__text">
+                                        3 This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. 
+                                        3 This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. 
+                                    </div>
+                                    <div class="card-item__name">Zoltan Nemeth</div>
+                                    <div class="card-item__stars">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="card-item">
+                                    <div class="card-item__text">4 This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. </div>
+                                    <div class="card-item__name">Zoltan Nemeth</div>
+                                    <div class="card-item__stars">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="splide__slide">
+                                <div class="card-item">
+                                    <div class="card-item__text">5 This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch. </div>
+                                    <div class="card-item__name">Zoltan Nemeth</div>
+                                    <div class="card-item__stars">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                        <img src="image/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="0" height="0"
+ style="position: absolute;"
+ >
+<clipPath id="header-clip">
+<path fill-rule="evenodd"  fill="rgb(216, 216, 216)"
+style="transform: translate(83px, 85px);"
+ d="M203.904,4.547 C282.558,18.427 349.725,65.672 418.687,104.129 C464.092,129.449 512.552,142.156 561.570,158.758 C686.191,200.967 813.581,274.957 804.473,410.769 C796.884,523.952 685.764,649.171 550.203,659.566 C503.316,663.159 462.214,650.251 425.321,629.609 C403.169,617.221 381.152,596.697 352.216,596.019 C321.697,595.308 290.528,616.241 264.307,629.708 C225.285,649.765 184.178,670.700 140.196,676.724 C39.285,690.548 9.859,622.409 16.619,533.971 C19.908,490.978 29.397,448.775 35.260,406.119 C43.576,345.624 30.000,293.305 14.438,235.100 C0.578,183.266 -8.725,125.605 15.945,77.912 C43.937,23.795 110.065,-2.133 171.027,0.833 C182.222,1.377 193.168,2.650 203.904,4.547 "/>
+</clipPath>
+</svg>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
