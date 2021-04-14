@@ -9,7 +9,7 @@
     <title>Creative Design Agency</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container">
             <!-- header__top -->
             <div class="header__top">
@@ -17,12 +17,12 @@
                     <img class="logo__image" src="image/logo.png" alt="logo">
                 </a>
                 <nav id="main-menu" class="navi header__nav">
-                    <a class="navi__link" href="#">Home</a>
-                    <a class="navi__link" href="#">About us</a>
-                    <a class="navi__link" href="#">Our Services</a>
-                    <a class="navi__link" href="#">Support</a>
+                    <a class="navi__link" href="#home">Home</a>
+                    <a class="navi__link" href="#about-us">About us</a>
+                    <a class="navi__link" href="#services">Our Services</a>
+                    <a class="navi__link" href="#support">Support</a>
                 </nav>
-                <a href="#" class="btn btn--sm header__btn">Contact</a>
+                <a href="#support" class="btn btn--sm header__btn">Contact</a>
 
                 <button type="button" class="toggle-menu header__toggle-menu js-toggle-menu" data-menu="#main-menu">
                     <span></span>
@@ -47,7 +47,7 @@
     <!-- header -->
 
     <!-- about-us -->
-    <section class="sect-about-us">
+    <section class="sect-about-us" id="about-us">
         <div class="sect-about-us__inner">
             <div class="container row sect-about-us__decor">
                 <div class="col col-md-none">
@@ -73,7 +73,7 @@
     </section>
     <!-- about-us -->
     <!-- our-services -->
-    <section class="sect-our-services">
+    <section class="sect-our-services" id="services">
         <div class="container row">
             <div class="col">
                 <div class="section-main">
@@ -206,6 +206,66 @@
             </div>
         </div>
     </section>
+
+    <section class="sect-contacts" id="support">
+        <div class="container row">
+            <div class="col">
+                <div class="section-main">
+                    <h2 class="section-main__title">Contact us</h2>
+                    <h3 class="section-main__subtitle">Don’t Hesitate to
+                        Contact us for
+                        any Information.</h3>
+                    <p class="section-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                        sed do eiusmod tempor incididunt ut labore et dolore <br>
+                        magna aliqua. Ut enim ad minim veniam,.</p>
+                </div>
+            </div>
+            <div class="col">
+                <form action="#" class="form sect-contacts__form">
+                    <div class="form__inner">
+                        <div class="form__field">
+                            <input class="form__input" type="text" id="f1">
+                            <label class="form__label" for="f1">Full name</label>
+                        </div>
+                        <div class="form__field">
+                            <input class="form__input" type="email" id="f2">
+                            <label class="form__label" for="f2">Email</label>
+                        </div>
+                        <div class="form__field form__field--textarea">
+                            <textarea class="form__input" cols="20" rows="6" id="f3"></textarea>
+                            <label class="form__label" for="f3">Message</label>
+                        </div>
+                        <button class="btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <a href="#" class="logo footer__logo">
+                    <img class="logo__image" src="image/logo.png" alt="logo">
+                </a>
+                <nav class="navi footer__navi">
+                    <a class="navi__link" href="#">Home</a>
+                    <a class="navi__link" href="#">About us</a>
+                    <a class="navi__link" href="#">Our Services</a>
+                    <a class="navi__link" href="#">Support</a>
+                </nav>
+                <div class="social">
+                    <a class="social__item" href="#"><img src="/image/facebook.svg" alt="facebook"></a>
+                    <a class="social__item" href="#"><img src="/image/yt.svg" alt="yt"></a>
+                    <a class="social__item" href="#"><img src="/image/twitter.svg" alt="twitter"></a>
+                    <a class="social__item" href="#"><img src="/image/linkedin.svg" alt="linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="copy">Copyright © Chirag Bactor 2020</p>
+        </div>
+    </footer>
 
 <svg 
  xmlns="http://www.w3.org/2000/svg"
